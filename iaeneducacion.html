@@ -1,92 +1,173 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IA, Educación y Conciencia Ambiental</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f9f1;
-      color: #333;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #2e7d32;
-      color: #fff;
-      padding: 1em;
-      text-align: center;
-    }
-    main {
-      padding: 2em;
-      max-width: 1000px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 2em;
-      background-color: #fff;
-      border-left: 6px solid #66bb6a;
-      padding: 1em;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    h2 {
-      color: #2e7d32;
-    }
-    footer {
-      background-color: #e8f5e9;
-      text-align: center;
-      padding: 1em;
-      font-size: 0.9em;
-    }
-    button {
-      background-color: #388e3c;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      margin-top: 1em;
-      cursor: pointer;
-      font-size: 1em;
-    }
-    button:hover {
-      background-color: #2e7d32;
-    }
-  </style>
-  <script>
-    function mostrarMensaje() {
-      alert("La inteligencia artificial debe ser usada de forma ética, crítica y sostenible. ¡Comprométete!");
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conciencia Ambiental - Educación y Futuro</title>
+    <style>
+        /* Reset and base styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h2, h3 {
+            color: #2e7d32;
+        }
+        p {
+            line-height: 1.6;
+            margin: 1em 0;
+        }
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #2e7d32;
+            color: white;
+            width: 220px;
+            height: 100%;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sidebar h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+            transition: background 0.3s;
+        }
+        .sidebar ul li a:hover {
+            background-color: #388e3c;
+        }
+        /* Main content */
+        .main {
+            margin-left: 240px;
+            padding: 20px;
+        }
+        /* Sections */
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        /* Responsive images */
+        .image-left {
+            float: left;
+            width: 45%;
+            margin: 0 20px 20px 0;
+        }
+        .image-right {
+            float: right;
+            width: 45%;
+            margin: 0 0 20px 20px;
+        }
+        .image-center {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 50%;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+            .sidebar ul li {
+                display: inline-block;
+                margin: 0;
+            }
+            .sidebar ul li a {
+                padding: 10px 15px;
+            }
+            .main {
+                margin: 0;
+            }
+            .image-left, .image-right, .image-center {
+                float: none;
+                width: 100%;
+                margin: 0 0 20px 0;
+            }
+        }
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>IA, Educación y Conciencia Ambiental</h1>
-    <p>Reflexiones sobre el impacto y los retos del uso de la inteligencia artificial</p>
-  </header>
+    <div class="sidebar">
+        <h1>EcoConciencia</h1>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#ia">IA y Futuro</a></li>
+            <li><a href="#habitos">Hábitos</a></li>
+        </ul>
+    </div>
 
-  <main>
-    <section>
-      <h2>1. Beneficios de la IA orientada en la educación</h2>
-      <p>El acceso y la disponibilidad de la información son aspectos fundamentales para cerrar brechas a nivel cognitivo. Enfocada en la educación, la inteligencia artificial tiene beneficios significativos en los procesos de enseñanza-aprendizaje, como la optimización del tiempo y los resultados en la ejecución de tareas académicas, la personalización del aprendizaje y el acceso a información inmediata y confiable. Sin embargo, también presenta desafíos relacionados con el plagio y la dependencia excesiva, lo que puede limitar el desarrollo de habilidades comunicativas como la lectura analítica, la redacción, la síntesis, la inferencia y el pensamiento crítico.</p>
-    </section>
+    <div class="main">
+        <section id="inicio">
+            <h2>Educación y Conciencia Ambiental</h2>
+            <p>Bienvenido a nuestro sitio dedicado a la educación y conciencia ambiental. Aquí podrás encontrar información y recursos para aprender cómo la tecnología, como la Inteligencia Artificial, y nuestros hábitos diarios pueden influir en el medio ambiente. Nuestro objetivo es fomentar un futuro sostenible a través de la divulgación y la acción comunitaria.</p>
+            <button class="btn">Descubre Más</button>
+        </section>
 
-    <section>
-      <h2>2. Preocupaciones del uso de la IA para un mejor futuro</h2>
-      <p>El crecimiento de la población y la demanda de bienes y servicios, junto con los avances tecnológicos que han impulsado la masificación de productos, están generando una sociedad de consumo poco consciente del impacto ambiental. Aunque existen políticas y tratados de desarrollo sostenible, no todas las empresas aplican prácticas responsables. Ejemplo de ello es la obsolescencia programada, incompatible con la sostenibilidad. Además, la disposición de RAEE se está convirtiendo en un problema serio de contaminación.</p>
-      <p>El uso de la IA también tiene implicaciones ambientales, debido al elevado consumo energético requerido por los servidores que procesan grandes volúmenes de datos. Por esta razón, no se debe promover el uso de la IA para generar contenido sin un propósito educativo o social claro. Actividades como crear versiones animadas de personas solo por entretenimiento son poco productivas.</p>
-      <p>Adicionalmente, preocupa el uso de la IA para evitar el esfuerzo intelectual. Los estudiantes no deben delegar su aprendizaje por completo a una herramienta; es esencial que entiendan que ChatGPT u otras IA deben ser herramientas que potencien, no reemplacen, la inteligencia humana.</p>
-    </section>
+        <section id="ia">
+            <h2>Preocupaciones del uso de la IA para un mejor futuro</h2>
+            <p>El crecimiento de la población y la necesidad de satisfacer la demanda de bienes y servicios, sumado a los avances tecnológicos que han permitido la masificación de productos, están generando una sociedad de consumo y de la inmediatez poco consciente con los impactos ambientales.  Si bien es cierto que existen políticas sólidas, tratados y unos objetivos de desarrollo sostenibles con metas e indicadores bien definidos, no todas las empresas adoptan prácticas de producción sustentables. La integración de la Inteligencia Artificial (IA) en diversas industrias promete soluciones innovadoras, pero también genera inquietudes ambientales. A continuación, exploramos algunos aspectos a considerar:</p>
+            <img src="Pendón.jpg" alt="Cartel de campaña ambiental" class="image-left">
+            <p>Los procesos de desarrollo y entrenamiento de IA pueden requerir una gran cantidad de energía. Esto podría aumentar la huella de carbono si no se utilizan fuentes de energía renovables. Además, la necesidad de hardware especializado puede acelerar la producción y desecho de equipos electrónicos, lo que plantea desafíos de reciclaje y manejo de residuos.</p>
+            <img src="Recolección RAEE.jpg" alt="Recolección de residuos electrónicos (RAEE)" class="image-right">
+            <p>La gestión de <em>residuos de aparatos eléctricos y electrónicos (RAEE)</em> es una preocupación clave. Cada vez que actualizamos dispositivos para soportar nuevas tecnologías de IA, generamos desechos electrónicos que pueden contaminar el medio ambiente si no son reciclados adecuadamente. Impulsar programas de reciclaje y reutilización es esencial para mitigar este impacto.</p>
+            <button class="btn">Acción Comunitaria</button>
+        </section>
 
-    <section>
-      <h2>3. Principales retos personales en el aprendizaje y adaptación a la IA</h2>
-      <p>El principal reto es masificar el uso de la inteligencia artificial como herramienta para optimizar el aprendizaje estudiantil con un enfoque ético y responsable. Esto implica proponer tareas y actividades que fomenten el trabajo autónomo, fortalezcan la apropiación de los temas, y promuevan un uso reflexivo y crítico de la tecnología.</p>
-      <button onclick="mostrarMensaje()">Reflexiona con nosotros</button>
-    </section>
-  </main>
+        <section id="habitos">
+            <h2>Hábitos Sostenibles para el Futuro</h2>
+            <p>Pequeños cambios diarios pueden marcar una gran diferencia. Desde el uso de energías limpias hasta la reducción del consumo innecesario, cada acción cuenta. Fomentar hábitos sostenibles en la comunidad mejora la calidad de vida y protege el planeta:</p>
+            <img src="Hábitos.jpg" alt="Persona promoviendo hábitos ecológicos" class="image-center">
+            <p>Practicar el reciclaje, optar por transportes alternativos como bicicletas o transporte público, y minimizar el uso de plásticos de un solo uso son hábitos sencillos que podemos adoptar. ¡Juntos podemos crear un futuro donde la tecnología y la naturaleza coexistan de forma armoniosa!</p>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 Conciencia Ambiental y Educación con IA | Diseñado para fomentar el pensamiento crítico y el compromiso sostenible.</p>
-  </footer>
+        <footer>
+            © 2025 EcoConciencia. Todos los derechos reservados.
+        </footer>
+    </div>
 </body>
 </html>
